@@ -6,7 +6,7 @@ module.exports = {
             test: /\.js$/,
             use: {
                 loader:'babel-loader',
-                option:{
+                options:{
                     presets:['@babel/preset-react']
                 }
             }
