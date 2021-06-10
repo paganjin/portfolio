@@ -24,7 +24,43 @@ const Left = styled.div`
 const Right = styled.div`
 `;
 
+const NavbarItem = styled.button`
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 16px;
+  text-decoration: none;
+  color: #49515d;
+  font-size: 15px;
+  opacity: ${({ active }) => active ? '1' : '0.6'};
+  display: block;
+  transition: opacity 0.3s ease-in-out;
+
+  &::after {
+    content: "";
+    width: ${({ active }) => active ? '24px' : '0'};
+    border-bottom: 3px solid #377e9a;
+    margin: auto;
+    margin-top: 4px;
+    display: block;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  &:hover {
+    opacity: 1;
+  }
+  
+  &:hover::after {
+    width: 24px;
+  }
+  
+  &:last-of-type {
+    padding-right: 0;
+  }
+`;
+
 const Header = ({
+  onPageChange,
   page,
 }) => {
   const navbarItem = [
@@ -45,13 +81,14 @@ const Header = ({
       <Right>
         <Flex>
           {navbarItem.map((navbarItem) => (
-            <a
-              key={navbarItem.key}
-              className={`navbarItem ${page === navbarItem.key && 'navbarItem--active'}`}
-              href={navbarItem.value}
+            <NavbarItem
+            onClick={() => onPageChange(navbarItem.key)}
+            key={navbarItem.key}
+            active={page === navbarItem.key}
+            href={navbarItem.value}
             >
               {navbarItem.value}
-            </a>
+            </NavbarItem>
           ))}
         </Flex>
       </Right>
