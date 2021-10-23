@@ -7,7 +7,7 @@ import nodeIcon from "@iconify/icons-logos/nodejs";
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var profilepic = "images/portfolio/" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -26,7 +26,8 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    width="300px"
+                    height="auto"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
