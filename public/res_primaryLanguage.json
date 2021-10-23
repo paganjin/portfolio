@@ -91,10 +91,6 @@
         {
           "class": "devicon-heroku-plain",
           "name": "Heroku"
-        },
-        {
-          "class": "devicon-npm-original-wordmark",
-          "name": "npm"
         }
       ]
     },
