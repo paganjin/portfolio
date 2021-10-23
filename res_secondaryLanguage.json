@@ -1,116 +1,159 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "嗨！",
+    "description": "👋 你好，我是天佑，是一名全栈工程师，如果有工作机会请通过领英联系我。💜",
+    "section_name": {
+      "about": "关于我",
+      "projects": "项目经历",
+      "skills": "技术栈",
+      "experience": "工作经历"
+    }
+  },
+  "projects": [
+    {
+      "title": "Vicamp",
+      "startDate": "2021",
+      "description": "● Designed and developed an online platform to help clients with personalized trip routes and convenient trip consideration as a full-stack developer ● Implemented frontend with JavaScript ES6, ejs, Bootstrap 5, Responsive design, Mapbox GL JS ● Implemented backend with node.js, express.js, npm/yarn, express-session, helmet, morgan, env-cmd, joi, mongoose, multer, passport, cloudinary ● Implemented MongoDB database ● Deployed backend on AWS EC2 and using AWS Route 53 to host the domain ● Utilized Postman, Github, VS code to aid development for Vicamp project",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "http://vicamp.com.au/",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS EC2/Route 53"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Vicamp",
-        "startDate": "2021",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "http://vicamp.com.au/",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Smart Brain",
-        "startDate": "2021",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Smart Brain",
+      "startDate": "2021",
+      "description": "● Developed the front-end project with React.js, React-tilt, npm, Webpack, Babel, ESLint ● Developed the back-end RESTful API with Node.js, Express.js, knex, cors, bcryptnodejs, PostgreSQL ● Deployed on Heroku for front-end, back-end and database",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "https://not-smart-brain.herokuapp.com/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-heroku-plain",
+          "name": "Heroku"
+        }
+      ]
+    },
+    {
+      "title": "Chat Room",
+      "startDate": "2021",
+      "description": "● Implemented RESTful API with Node.js, Express.js ● Using ReactJS and CSS Modules to build a single-page web application ● Using useState, useEffect, useContext, useRef Hooks in React.js to develop the web app ● Successfully deployed to Heroku",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://remote-chat-room.herokuapp.com/",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-heroku-plain",
+          "name": "Heroku"
+        },
+        {
+          "class": "devicon-npm-original-wordmark",
+          "name": "npm"
+        }
+      ]
+    },
+    {
+      "title": "Weather App",
+      "startDate": "2021",
+      "description": "● Using React.js and Styled Component to build a single-page web application ● Get latitude and longitude by using Mapbox Geocoding API ● Applying Weatherstack API to grab weather data ● Successfully deployed to Heroku",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://weather-app-2-node.herokuapp.com/",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-heroku-plain",
+          "name": "Heroku"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "JR Academy",
+      "title": "Full Stack Developer",
+      "years": "Aug 2021 - present",
+      "mainTech": ["React", "Node"],
+      "technologies": [
+        "RESTful APIs",
+        "Redux",
+        "JavaScript",
+        "Bootstrap 4/5",
+        "TypeScript",
+        "Pug",
+        "ESLint",
+        "Axios",
+        "Jest"
+      ]
+    },
+    {
+      "company": "HungryPanda AU Pty Ltd",
+      "title": "Delivery Operation Specialist",
+      "years": "Jun 2020 - Sep 2021",
+      "mainTech": ["Python"],
+      "technologies": ["PowerBI", "Microsoft Excel VBA"]
+    },
+    {
+      "company": "Make in China Pty Ltd",
+      "title": "Web Developer",
+      "years": "Dec 2018 - Feb 2019",
+      "mainTech": ["JavaScript"],
+      "technologies": ["HTML 5", "CSS 3", "Bootstrap 4", "AWS EC2"]
+    }
+  ]
+}

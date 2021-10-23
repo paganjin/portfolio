@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 My name is Bob, I am a proactive and self-motivated developer with commercial experience in full-stack development. I have proven ability and rich experience from multiple projects and work knowledge with coding. With my excellent time management skill, advanced planning ability, and solid learning capability, I look forward to embracing my next career challenge. Thank you 💜",
+    "description": "👋 My name is Tianyou, I am a proactive and self-motivated developer with commercial experience in full-stack development. I have proven ability and rich experience from multiple projects and work knowledge with coding. With my excellent time management skill, advanced planning ability, and solid learning capability, I look forward to embracing my next career challenge. Thank you 💜",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -13,92 +13,112 @@
     {
       "title": "Vicamp",
       "startDate": "2021",
-      "description": "This website is for sharing camping places for Aussie people.",
+      "description": "● Designed and developed an online platform to help clients with personalized trip routes and convenient trip consideration as a full-stack developer ● Implemented frontend with JavaScript ES6, ejs, Bootstrap 5, Responsive design, Mapbox GL JS ● Implemented backend with node.js, express.js, npm/yarn, express-session, helmet, morgan, env-cmd, joi, mongoose, multer, passport, cloudinary ● Implemented MongoDB database ● Deployed backend on AWS EC2 and using AWS Route 53 to host the domain ● Utilized Postman, Github, VS code to aid development for Vicamp project",
       "images": [
         "images/portfolio/animal-shelter/p1.jpg",
         "images/portfolio/animal-shelter/p2.jpg"
       ],
-      "url": "",
+      "url": "http://vicamp.com.au/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-express-original",
+          "name": "Express"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS EC2/Route 53"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
         }
       ]
     },
     {
       "title": "Smart Brain",
       "startDate": "2021",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "description": "● Developed the front-end project with React.js, React-tilt, npm, Webpack, Babel, ESLint ● Developed the back-end RESTful API with Node.js, Express.js, knex, cors, bcryptnodejs, PostgreSQL ● Deployed on Heroku for front-end, back-end and database",
       "images": [
         "images/portfolio/photography/p1.jpg",
         "images/portfolio/photography/p2.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://not-smart-brain.herokuapp.com/",
       "technologies": [
         {
           "class": "devicon-react-original",
           "name": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-heroku-plain",
+          "name": "Heroku"
         }
       ]
     },
     {
       "title": "Chat Room",
       "startDate": "2021",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "description": "● Implemented RESTful API with Node.js, Express.js ● Using ReactJS and CSS Modules to build a single-page web application ● Using useState, useEffect, useContext, useRef Hooks in React.js to develop the web app ● Successfully deployed to Heroku",
       "images": [
         "images/portfolio/adventure/p1.jpg",
         "images/portfolio/adventure/p2.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://remote-chat-room.herokuapp.com/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-express-original",
+          "name": "Express"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-heroku-plain",
+          "name": "Heroku"
+        },
+        {
+          "class": "devicon-npm-original-wordmark",
+          "name": "npm"
         }
       ]
     },
     {
       "title": "Weather App",
       "startDate": "2021",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "description": "● Using React.js and Styled Component to build a single-page web application ● Get latitude and longitude by using Mapbox Geocoding API ● Applying Weatherstack API to grab weather data ● Successfully deployed to Heroku",
       "images": [
         "images/portfolio/adventure/p1.jpg",
         "images/portfolio/adventure/p2.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://weather-app-2-node.herokuapp.com/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-express-original",
+          "name": "Express"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-heroku-plain",
+          "name": "Heroku"
         }
       ]
     }
@@ -107,26 +127,33 @@
     {
       "company": "JR Academy",
       "title": "Full Stack Developer",
-      "years": "Aug 2021 - present",
+      "years": "Aug 2021 - Present",
       "mainTech": ["React", "Node"],
       "technologies": [
-        "REST API",
-        "RxJS",
+        "RESTful APIs",
+        "Redux",
         "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Bootstrap 4/5",
+        "TypeScript",
+        "Pug",
+        "ESLint",
+        "Axios",
+        "Jest"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "HungryPanda AU Pty Ltd",
+      "title": "Delivery Operation Specialist",
+      "years": "Jun 2020 - Sep 2021",
+      "mainTech": ["Python"],
+      "technologies": ["PowerBI", "Microsoft Excel VBA"]
+    },
+    {
+      "company": "Make in China Pty Ltd",
+      "title": "Web Developer",
+      "years": "Dec 2018 - Feb 2019",
+      "mainTech": ["JavaScript"],
+      "technologies": ["HTML 5", "CSS 3", "Bootstrap 4", "AWS EC2"]
     }
   ]
 }
