@@ -1,3 +1,4 @@
-<h3>:eye_speech_bubble: Live page</h3>
-
-Check portfolio here <a href="https://paganjin.github.io/portfolio/"><strong>here</strong></a>
+This is my personal website.\
+● Designed and developed the personal website to introduce myself, show tech-stacks, and work experiences\
+● Implemented frontend with pure HTML5, CSS3, JavaScript, ES6, Flexbox, media queries, Responsive design\
+● Successfully deployed to Github
